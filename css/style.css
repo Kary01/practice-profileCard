@@ -1,3 +1,7 @@
+:root {
+  --theme-color: #309975;
+}
+
 *,
 *:before,
 *:after {
@@ -8,10 +12,25 @@
 
 body {
   background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
 }
 
 .card {
   height: 420px;
   width: 320px;
-  border: 1px solid black;
+  background: linear-gradient(
+    to bottom,
+    var(--theme-color) 110px,
+    #ffffff 110px
+  );
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
+  padding: 50px 0;
 }
