@@ -87,6 +87,7 @@ body {
   padding: 8px 0;
   border-radius: 10px;
   border: 2.5px solid var(--theme-color);
+  outline: none;
 }
 
 .card .card--buttons button:first-child {
@@ -99,6 +100,44 @@ body {
   background-color: transparent;
   color: var(--theme-color);
   font-weight: 600;
+}
+
+.themes {
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.3);
+  padding: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.themes button {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #dddddd;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.themes .btn1 {
+  background-color: #ffa822;
+}
+
+.themes .btn2 {
+  background-color: #134e6f;
+}
+
+.themes .btn3 {
+  background-color: #ff6150;
+}
+
+.themes .btn4 {
+  background-color: #309975;
+}
+
+.themes .btn5 {
+  background-color: #1ac0c6;
 }
 
 
