@@ -25,12 +25,53 @@ body {
 .card {
   height: 420px;
   width: 320px;
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 600;
   background: linear-gradient(
     to bottom,
     var(--theme-color) 110px,
     #ffffff 110px
   );
+  border: 5px solid #1b1b1b;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
-  padding: 50px 0;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.3);
+}
+
+.card .card--img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 0 0 8px white ;
+}
+
+.card .card--name {
+  color: var(--theme-color);
+  font-size: 16px;
+  margin: 15px 0 5px 0;
+}
+
+.card .card--title {
+  color: #454545;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card .card--details {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .card--details h2 {
+  font-weight: 400;
+}
+
+.card .card--details span {
+  color: var(--theme-color);
 }
